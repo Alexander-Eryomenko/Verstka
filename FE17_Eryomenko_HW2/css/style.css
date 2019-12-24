@@ -1,0 +1,122 @@
+section blockquote p {
+    color: black;
+}
+
+#greycol{
+    color: gray;
+}
+
+div p {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.section-list li {
+    list-style: none;
+}
+
+.section-list li:before {
+    content: "-";
+    display: inline-block;
+}
+
+.section-list li:hover {
+    background-color: aqua;
+}
+
+.section-list ul li a {
+    text-decoration: none;
+
+}
+
+.section-list .list-item{
+    font-size: 18px;
+}
+.section-list .list-item:nth-child(even){
+    font-size: 20px;
+}
+
+.section-list .list-item:nth-child(3n+1){
+    background-color: yellow;
+}
+
+
+.section-list .list-item:nth-child(3n+1):hover{
+    background-color: aqua;
+}
+
+
+.section-list .list-item:first-child .link {
+    color: green;
+}
+
+
+
+
+
+.section-logo-hover .box-link a{
+    text-decoration: none;
+}
+
+.section-logo-hover .box-link a p{
+    color: green;
+}
+
+.section-logo-hover .box-link a:hover .holder{
+    display: none;
+}
+
+.section-logo-hover .box-link a .block{
+    display: none;
+}
+
+.section-logo-hover .box-link a:hover .block{
+    display: inline-block;
+}
+
+
+.section-logo-hover p{
+    display: inline;
+    font-size: 30px;
+}
+
+.picture h2 {
+    text-align: center;
+    color: green;
+    font: 700 30px/34px 'Bebas Neue', Arial, Helvetica, sans-serif;
+}
+
+.picture .bg-box {
+    position: relative;
+    margin: 0 auto;
+    height: 1000px;
+    background:
+
+                url("../img/grass.png") 0 100% repeat-x,
+                url("../img/lamp.png") 0 0 repeat-x,
+                url("../img/hedgehog.png") 0 0 repeat-y,
+                url("../img/donut.png") 100% 0 repeat-y;
+                background-size: 80px 80px;
+
+}
+
+.bg-box:before{
+    content: url("../img/house.jpg");
+    position: absolute;
+    width: 380px;
+    height: 596px;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -190px;
+}
+
+/*.picture div img {*/
+    /*display: block;*/
+    /*padding-top: 320px;*/
+/*}*/
+
+

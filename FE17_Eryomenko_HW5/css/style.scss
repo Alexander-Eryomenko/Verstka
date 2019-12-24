@@ -1,0 +1,239 @@
+.conteiner {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+body {
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkgoldenrod;
+  padding: 40px 30px;
+  box-sizing: border-box;
+
+  .logo {
+    max-width: 200px;
+    max-height: 200px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.main-nav {
+
+
+
+  ul {
+    display: flex;
+    font: 400 20px/22px Arial, Helvetica, sans-serif;
+
+
+
+    li {
+      margin-left: 10px;
+
+        a {
+          text-decoration: none;
+          color: black;
+          transition: color linear 0.5s;
+
+          &:hover {
+            color: yellowgreen;
+            transition: color linear 0.2s;
+          }
+        }
+    }
+  }
+}
+
+ .main {
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+   font: 400 20px/22px Arial, Helvetica, sans-serif;
+   background-color: white;
+
+   .padding {
+     padding-top: 20px;
+   }
+   .padding-aside {
+     padding-top: 10px;
+   }
+
+  .sidebar {
+
+    flex-basis: 57.5%;
+  }
+
+   .sidebar-1 {
+     background-color: pink;
+     order: 1;
+   }
+
+   .sidebar-2 {
+     background-color: gray;
+     order: 3;
+   }
+   .content-box {
+     order: 2;
+     //flex-basis: 90%;
+
+     p {
+       margin-bottom: 30px;
+       padding: 0 20px;
+     }
+
+     h1 {
+       font: 700 30px/32px Arial, Helvetica, sans-serif;
+       margin-bottom: 20px;
+     }
+
+     .content {
+       display: flex;
+       justify-content: space-around;
+       align-items: center;
+       flex-wrap: wrap;
+       margin-bottom: 30px;
+       //align-content: space-between;
+
+
+       .box {
+        display: flex;
+         flex-direction: column;
+         justify-content: flex-start;
+         align-items: center;
+         flex-wrap: wrap;
+         align-content: center;
+         border: 1px solid black;
+         border-radius: 10px;
+         width: 250px;
+         padding: 5px 10px;
+         transition: transform 0.2s linear;
+         margin-bottom: 13px;
+         height: 300px;
+         position: relative;
+
+         &:hover {
+           transform: translateY(-10px);
+           transition: transform 0.2s linear;
+         }
+
+         div:first-child {
+           width: 100px;
+           height: 100px;
+           border: 6px solid #f3f5dc;
+           border-radius: 50%;
+           margin-bottom: 15px;
+
+           img {
+             width: 100%;
+             border-radius: 50%;
+           }
+         }
+
+         div:nth-child(2) {
+           margin-bottom: 15px;
+
+           span:first-child {
+             font: 700 14px/16px Arial, Helvetica, sans-serif;
+             display: block;
+             margin-bottom: 20px;
+           }
+           span:last-child {
+             font: 400 14px/16px Arial, Helvetica, sans-serif;
+             display: block;
+
+           }
+         }
+         div:last-child {
+           //align-self: flex-end;
+           position: absolute;
+           bottom: 0;
+           margin: 0 auto 10px;
+
+           a {
+             text-decoration: none;
+             color: white;
+             padding: 4px 15px;
+             background-color: darkorchid;
+             border-radius: 30px;
+             font: 400 14px/16px Arial, Helvetica, sans-serif;
+
+             &:hover {
+               background-color: firebrick;
+             }
+
+           }
+         }
+       }
+     }
+   }
+ }
+
+ .footer {
+  margin-bottom: 20px;
+   background-color: yellowgreen;
+
+   p {
+     text-align: center;
+     font: 700 15px/17px Arial, Helvetica, sans-serif;
+     padding: 10px 0;
+   }
+ }
+
+ .holder {
+   border: 3px solid white;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   max-width: 350px;
+   box-sizing: border-box;
+   flex-wrap: wrap;
+   align-content: center;
+
+   .item {
+     padding: 20px 0;
+
+   }
+
+
+   .item:first-child {
+     background-color: red;
+     flex-basis: 50%;
+     order: 1;
+     border-top-left-radius: 11px;
+
+   }
+   .item:nth-child(2) {
+     background-color: blue;
+     flex-basis: 33.3%;
+     order: 4;
+   }
+   .item:nth-child(3) {
+     background-color: violet;
+     flex-basis: 33.3%;
+     order: 3;
+   }
+   .item:nth-child(4) {
+     background-color: green;
+     flex-basis: 33.3%;
+     order: 5;
+   }
+   .item:last-child {
+     background-color: orange;
+     flex-basis: 50%;
+     order: 2;
+     border-top-right-radius: 11px;
+   }
+ }
+

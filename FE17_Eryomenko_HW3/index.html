@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>A-level</title>
+</head>
+<body>
+
+<main>
+
+    <section class="section-text container">
+        <p class="section-text__text">
+        <div class="section-text__img-logo-1">
+            <img src="img/a-level-ico.png" alt="logo-alevel">
+        </div>
+        <span class="line-height"> Алиса хочет отправить важное сообщение Бобу
+            <br>
+            Сообщение a = ( a<span class="sup">1</span>, ..., a<span class="sup">n</span> ) является последовательностью положительных чисел ( символов )
+            <br>
+            Для сжатия сообщения Алиса хочет использовать <span style="color: green; font-weight: 700">двоичный код Хаффмана</span></span>
+        <br>
+        <br>
+        Напомним, что двоичный код Хаффмана, или <span class="i">двоичный префиксно-свободный код</span> — это функция
+        <span class="f">f</span> , которая сопоставляет
+        каждому символу сообщения двоичные строки (то есть строки, состоящие только из символов «0» и «1») таким
+        образом, что ни для какой пары различных символов a<span class="sup">i</span> и a<span class="sup">j</span>
+        строка <span class="f">f</span> ( a<span class="sup">i</span> )
+        не является префиксом <span class="f">f</span> ( a<span class="sup">j</span> ) (и наоборот)
+
+        Результатом кодирования сообщения a<span class="sup">1</span>, a<span class="sup">2</span>, ..., a<span
+            class="sup">n</span> является конкатенация кодов отдельных символов, то есть строка <span class="f">f</span>
+        ( a<span class="sup">1</span> )<span class="f">f</span> ( a<span class="sup">2</span> )... <span
+            class="f">f</span> ( a<span class="sup">n</span> )
+        <br>
+        <br>
+
+        Коды Хаффмана удобны тем, что закодированное сообщение можно легко и однозначно декодировать,
+        если знать код
+        <div class="section-text__img-logo-2">
+            <img src="img/a-level-ico.png" alt="logo-alevel">
+        </div>
+        <br>
+        <br>
+        Код обычно выбирается таким образом, чтобы минимизировать суммарную длину закодированного сообщения,
+        то есть длину строки <span class="f">f</span> ( a<span class="sup">1</span> )<span class="f">f</span> ( a<span
+            class="sup">2</span> )... <span class="f">f</span> ( a<span class="sup">n</span> )
+        <span class="line-height">
+            <br>
+            Алиса не хочет посылать сообщение целиком, поскольку это слишком рискованно
+            <br>
+
+            Вместо этого она выбрала несколько частей сообщения и хочет отправить их по отдельности
+            <br>
+
+            Для каждой выбранной подстроки a<span class="sup">ki</span>... a<span class="sup">mi</span> она хочет найти минимальную длину этой подстроки, закодированной по Хаффману
+
+            Помогите ей с этой задачей</span>
+
+
+        </p>
+    </section>
+
+    <section class="cards container">
+        <blockquote class="blockquote">
+            <p>
+                "Судьба тасует карты, а мы ими играем."
+            </p>
+            <cite>
+                Артур Шопенгауэр
+            </cite>
+        </blockquote>
+
+        <div class="box-cards">
+            <div class="box-cards__cards1 container-card">
+                <img src="img/card01.png" alt="">
+            </div>
+            <div class="box-cards__cards2 container-card">
+                <img src="img/card01.png" alt="">
+            </div>
+            <div class="box-cards__cards3 container-card">
+                <img src="img/card01.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="level-3 container">
+        <div class="level-3__box">
+            <div class="level-3__layer-1  square">
+                <div>
+                <img src="img/face.png" alt="">
+                </div>
+            </div>
+            <div class="level-3__layer-2 square">
+                <div>
+                    <img src="img/face.png" alt="">
+                </div>
+            </div>
+            <div class="level-3__layer-3 square">
+                <div>
+                    <img src="img/face.png" alt="">
+                </div>
+            </div>
+            <div class="level-3__layer-4 square">
+                <div>
+                    <img src="img/face.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+
+</body>
+</html>

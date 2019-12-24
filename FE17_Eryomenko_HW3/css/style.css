@@ -1,0 +1,135 @@
+.container {
+  width: 1000px;
+  margin: 0 auto; }
+
+.line-height {
+  line-height: 40px; }
+
+.sup {
+  vertical-align: sub;
+  font-size: 14px;
+  font-weight: 700;
+  color: blue;
+  font-style: italic; }
+
+.f {
+  font-size: 14px;
+  font-weight: 700;
+  color: blue;
+  font-style: italic; }
+
+.i {
+  font-weight: 700;
+  font-style: italic; }
+
+.section-text {
+  padding-top: 10px;
+  line-height: 20px;
+  font-size: 17px;
+  margin-bottom: 50px; }
+  .section-text__img-logo-1 {
+    margin: 0 20px 20px 0;
+    float: left; }
+  .section-text__img-logo-2 {
+    float: right; }
+
+.cards {
+  min-height: 800px;
+  background-color: #0d5825;
+  margin-bottom: 70px; }
+  .cards .blockquote {
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+    margin-bottom: 200px; }
+    .cards .blockquote cite {
+      font-weight: 400;
+      font-style: italic; }
+  .cards .box-cards {
+    position: relative; }
+    .cards .box-cards .container-card {
+      width: 150px; }
+      .cards .box-cards .container-card img {
+        width: 100%; }
+    .cards .box-cards__cards1 {
+      position: absolute;
+      left: 40%;
+      transform: rotate(-20deg);
+      top: 0;
+      transition: linear 0.5s; }
+      .cards .box-cards__cards1:hover {
+        top: -20px;
+        transition: top linear 0.5s; }
+    .cards .box-cards__cards2 {
+      position: absolute;
+      top: 5px;
+      left: 45%;
+      transform: rotate(-7deg);
+      transition: linear 0.5s; }
+      .cards .box-cards__cards2:hover {
+        top: -20px;
+        transition: top linear 0.5s; }
+    .cards .box-cards__cards3 {
+      position: absolute;
+      top: 15px;
+      left: 50%;
+      transform: rotate(5deg);
+      transition: linear 0.5s; }
+      .cards .box-cards__cards3:hover {
+        top: -20px;
+        transition: top linear 0.5s; }
+
+.level-3 .square {
+  background-color: azure;
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  -webkit-box-shadow: 7px 7px 10px 5px #7A7A7A;
+  box-shadow: 7px 7px 10px 5px #7A7A7A; }
+  .level-3 .square div {
+    max-width: 70px;
+    max-height: 70px;
+    padding: 20px 0 0 20px; }
+  .level-3 .square img {
+    width: 100%; }
+.level-3__box {
+  position: relative;
+  height: 700px; }
+.level-3__layer-1 {
+  position: absolute;
+  left: 20%; }
+  .level-3__layer-1:hover {
+    z-index: 1; }
+.level-3__layer-2 {
+  position: absolute;
+  left: 25%;
+  top: 5%; }
+  .level-3__layer-2:before {
+    content: "Amy normally hated Monday mornings, but this year was different.";
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    background-color: blue;
+    color: red;
+    position: absolute; }
+    .level-3__layer-2:before:hover {
+      opacity: 1; }
+  .level-3__layer-2:hover {
+    z-index: 1; }
+.level-3__layer-3 {
+  position: absolute;
+  left: 30%;
+  top: 10%; }
+  .level-3__layer-3:hover {
+    z-index: 1; }
+.level-3__layer-4 {
+  position: absolute;
+  left: 35%;
+  top: 15%; }
+  .level-3__layer-4:hover {
+    z-index: 1; }
+
+/*# sourceMappingURL=style.css.map */
